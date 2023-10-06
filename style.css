@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header,
@@ -78,4 +79,47 @@ body {
     font-weight: bold;
     margin: 4px 2px;
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.signup:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-info {
+    display: flex;
+    max-width: 200px;
+    align-items: center;
+    border-width: 3px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-cards {
+    padding: 16px;
+    margin: 0;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
 }
