@@ -49,9 +49,9 @@ body {
     justify-content: space-around;
 }
 .img {
-    width: 300px;
     max-width: 300px;
     display: flex;
+    flex: 1 0;
 }
 
 .title-text {
@@ -109,6 +109,7 @@ body {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin: 5px 0;
 }
 
 .info-images {
@@ -122,4 +123,33 @@ body {
     width: 200px;
     display: flex;
     flex-direction: column;
+}
+
+.img-subtext {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    color: gray;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 5%;
+}
+
+.text-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.thor {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 900;
 }
